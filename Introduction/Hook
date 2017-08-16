@@ -1,0 +1,18 @@
+\documentclass[../main.tex]{subfiles}
+\input{packages}
+
+\begin{document}
+
+
+
+\section{Introduction}
+
+%Insérer citation philosophique relative à l'apprentissage ou l'intelligence
+
+L'intelligence, telle que définie plus haut par %Nom de philosophe
+est relative à de nombreux facteurs, elle est souvent associée à l'adaptabilité de l'individu face à son environnement, en d'autres termes, sa capacité à apprendre à l'aide de ses sens et à offrir une réponse efficiente face à celui-ci. En dehors de tout aspect philosophique, cette vision de l'intelligence s'applique de même à différents autres champs de l'étude du monde: en biologie l'intelligence est aussi intrinsèquement liée à l'évolution, en effet, les individus les plus adaptés ,"\textit{fittest}", sont ceux qui seront plus à même de survivre et de transmettre leurs caractéristiques à leur progéniture.
+\vspace{0.5cm}
+
+Or, c'est cette même problématique qui commence à être au centre de l'attention dans le monde de la programmation robotique, mais surtout dans les sphères novatrices de la cybernétique\footnote{\say{Cybernetics is a word coined by group of scientists led by Norbert Wiener and made popular by Wiener's book of 1948, Cybernetics or Control and Communication in the Animal and the Machine. Based on the Greek "kybernetes," meaning steersman or governor, cybernetics is the science or study of control or regulation mechanisms in human and machine systems, including computers.}} \cite{Cyber1}, au-travers des récentes avancées en \textit {machine learning} \footnote{\say{Machine learning is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed. Machine learning focuses on the development of computer programs that can change when exposed to new data. }} \cite{Mach1}, soit le développement de nouvelles intelligences artificielles (IA), capables d'apprendre à reconnaître des schémas internes au \textit{data} qui leur est fourni. Et il se trouve que l'efficacité de ces programmes et ce qui les rend si révolutionnaires, réside justement dans leur aspect bio-inspiré et ouvre de nouveaux horizons de développement, en d'autres termes en se basant sur des mécanismes observés dans la nature. Il existe par ailleurs une grande variété de niveaux de cette "bio-inspiration", que ce soit purement en surface, avec par exemple le développement de robots simulant la démarche de vertébrés simples \cite{crespi2005amphibot}, ou poussant l'apport du vivant jusque dans la structure même de certains algorithmes.  
+
+\end{document}
