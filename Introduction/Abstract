@@ -1,0 +1,13 @@
+\documentclass[../main.tex]{subfiles}
+\input{packages}
+
+
+\begin{document}
+
+\section{Abstract}
+
+Expérience impliquant 5 robots mobiles Thymio II \textit{wireless} dont le comportement mobile est déterminé de manière stochastique à chaque démarrage de celle-ci. Le comportement, soit la trajectoire de l'individu, évolue en fonction du temps, et peut être échangée et/ou modifiée lors du \textit{mating}, la reproduction. Le nombre de robots étant déterminé au départ, la population demeure stable, mais offre néanmoins une simulation en temps réel de l'évolution d'une communauté sous la forme de variations de mouvements et de lumières. 
+
+
+
+\end{document}
