@@ -1,0 +1,36 @@
+\documentclass[../main.tex]{subfiles}
+\input{packages}
+
+
+\begin{document}
+
+\subsection{Développement de l'idée}
+
+Possédant une fascination certaine pour la question du développement de nouveau types d'intelligences, j'ai donc commencé à orienter mon choix de travail de Maturité vers l'informatique, cependant, cela n'était pas tout: il me fallait une composante supplémentaire.\vspace{0.5cm}
+
+Une idée m'est apparue en parcourant le journal \textit{Science\&Vie}, alors que celui-ci s'avançait sur un projet d'étude d'une créature aussi étrange que passionnante: le Blob. Dans un article plus tardif, il était indiqué que cette créature, pourtant dénuée de système nerveux, avait prouvé être capable d'apprendre à éviter des obstacles dans un quête de nourriture, et cela en optimisant de plus son trajet à la plus courte distance \cite{Scivi}. J'ai donc décidé de concentrer mon travail sur "l'implémentation" d'un comportement d'apprentissage sur un robot mobile, l'option du robot semblant plus intelligible à mon esprit de néophyte. De l'optimisation bio-inspirée en quelque sorte.\newline
+Il me restait donc à déterminer l'approche purement technique de mon entreprise: j'ai tout d'abord pensé me diriger vers un système simple de neurones formels, un "perceptron"\cite{Freund1999}\footnote{In machine learning, the perceptron is an algorithm for supervised learning of binary classifiers (functions that can decide whether an input, represented by a vector of numbers, belongs to some specific class or not). It is a type of linear classifier, i.e. a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with the feature vector. The algorithm allows for online learning, in that it processes elements in the training set one at a time.
+
+The perceptron algorithm dates back to the late 1950s; its first implementation, in custom hardware, was one of the first artificial neural networks to be produced.}.
+\newline
+
+\begin{figure}[h!]
+    \centering
+    \label{graph:gra}
+    \includegraphics[width=15cm]{stockpic/perceptron1.png}
+    \caption{Schéma de Perceptron tel que développé en 1957 par Frank Rosenblatt \cite{Danshiff}}
+\end{figure}
+
+\vspace{1cm}
+
+Mais cette option s'est très vite avérée inenvisageable, que ce soit à cause du \textit{software} choisi, Aseba studio, logiciel open-source limité, ne permettant pas la construction de matrices de poids pourtant indispensables au développement d'un système de neurones et tout simplement à cause de la grandeur de la tâche. Après de nombreuses recherches, j'ai finalement dirigé mon attention vers diverses expériences impliquant l'optimisation d'un trajet parcouru par un robot mobile. Un article en particulier à retenu mon attention: \say{A RAM-Based Neural Network for Collision Avoidance in a Mobile Robot}\cite{RAM}, dans lequel une équipe de la faculté d'ingénierie et sciences informatique de l'université du Missouri décrit le processus d'optimisation de l'évitement d'obstacles d'un robot à capteurs infrarouges au travers de l'apprentissage surveillé de celui-ci. L'option me semblait intéressante, compte tenu de l'absence de matrice et de l'aspect relativement proche du \textit{hardware} de l'expérience. Cependant, il me fallait adapter plus précisément les fondements de l'expérience à mes moyens. Mon sujet premier est donc apparu: implémenter un comportement bio-inspiré d'évitement d'objet à des robots Thymio.
+
+ 
+
+
+
+
+
+
+
+\end{document}
